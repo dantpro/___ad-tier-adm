@@ -7,4 +7,8 @@ This collection of scripts allows for quick deployment of a tiering model for Ac
 - Domain admin level permissions
 - Text editor to edit the input files (csv / json / log)
 
+## Prerequisites 
+- Rename user locations in **Create-Structure.ps1** to something sensible for your organization. Currently marked as Location 1, 2, 3, 4 and 5.
+- 
+
 
