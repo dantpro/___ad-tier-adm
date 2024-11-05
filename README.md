@@ -85,9 +85,15 @@ Next step is to create groups that will be used for different purposes. The "**g
 ## Prerequisites 
 - Again you will have to correct the domain name, but this time in the CSV file. Open the CSV file in a text editor and replace the same values as in step 1 to match you domain.
 - Store the script file (Create-Groups.ps1) and the CSV file (group-creation.csv) in the same folder. The script looks for the CSV file in the root where the script is executed. If you use ISE, go to the location of the script, for example: ```cd c:\temp```
-
-Example:
+- Add any custom groups you want to deploy as well to the CSV file, see example:
 ```
 Name,Path,GroupScope,GroupCategory
 COMPTR_Default Container_CREATE,"CN=Access Control,OU=Tier 2,OU=Administration,OU=Corp,DC=test,DC=local",DomainLocal,Security
+```
+
+## Run Script
+Now you can run the script, the output should give you information about the groups successfully created and als the ones that failed to be created. Check for errors in the output, correct them as needed and run the script again. Groups that already exist will be skipped, the ones that failed will be created if the issue is resolved.
+
+```
+If the script gives an error that it can't find the CSV file check if the script and csv are in the same folder and your console location is that folder.
 ```
