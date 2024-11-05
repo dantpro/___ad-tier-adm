@@ -97,3 +97,22 @@ Now you can run the script, the output should give you information about the gro
 ```
 If the script gives an error that it can't find the CSV file check if the script and csv are in the same folder and your console location is that folder.
 ```
+Once all groups are greated and the script only give "skipping" messages you can continue with the next step.
+
+# 3 Creating Password Settings Objects (Create-PSOs.ps1)
+PSO's are objects that enforce password requirements. Using PSO's gives the ability to set different scopes of password requirements per tier. This script does not require an input file.
+
+## Prerequisites
+- Check the script file to validate the password settings are according to your organizations need. There are 5 objects defined in the script.
+  | # | Scope | Object | Applies to |
+  -----------------------------------
+  | 1 | Tier 0 Admin | PSO_AT0_Administrator | PSO_Tier 0 ADM Users_APPLY |
+  | 2 | Tier 1 Admin | PSO_AT1_Administrator | PSO_Tier 1 ADM Users_APPLY |
+  | 3 | Tier 2 Admin | PSO_AT2_Administrator | PSO_Tier 2 ADM Users_APPLY |
+  | 4 | Tier 0 Service Account | PSO_ST0_Service User | PSO_Tier 0 Service Users_APPLY |
+  | 5 | Tier 1 Service Account | PSO_ST1_Service User | PSO_Tier 1 Service Users_APPLY |
+  
+ - PSO_AT0_Administrator
+  2. Tier 1 Admin - PSO_AT1_Administrator
+  3. Tier 2 Admin - PSO_AT2_Administrator
+  4. Tier 0 Service Account - 
