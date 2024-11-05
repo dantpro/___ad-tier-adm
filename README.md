@@ -79,4 +79,11 @@ PS C:\Users\Administrator>
 
 Fix any error you come accross. And the Structure deployment is done.
 
-# 
+# Creating groups (Create-Groups.ps1)
+Next step is to create groups that will be used for different purposes. The "**group-creation.csv**" file contains all default groups needed for a basic tiering model. You can add extra groups as you desire in the same format.
+
+Example:
+```
+Name,Path,GroupScope,GroupCategory
+COMPTR_Default Container_CREATE,"CN=Access Control,OU=Tier 2,OU=Administration,OU=Corp,DC=test,DC=local",DomainLocal,Security
+```
