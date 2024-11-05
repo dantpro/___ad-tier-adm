@@ -95,7 +95,8 @@ COMPTR_Default Container_CREATE,"CN=Access Control,OU=Tier 2,OU=Administration,O
 Now you can run the script, the output should give you information about the groups successfully created and als the ones that failed to be created. Check for errors in the output, correct them as needed and run the script again. Groups that already exist will be skipped, the ones that failed will be created if the issue is resolved.
 
 ```
-If the script gives an error that it can't find the CSV file check if the script and csv are in the same folder and your console location is that folder.
+If the script gives an error that it can't find the CSV file check if the script and csv are in the same folder
+and your console location is that folder.
 ```
 Once all groups are greated and the script only give "skipping" messages you can continue with the next step.
 
@@ -111,9 +112,16 @@ PSO's are objects that enforce password requirements. Using PSO's gives the abil
   | 3 | Tier 2 Admin           | PSO_AT2_Administrator | PSO_Tier 2 ADM Users_APPLY     | 120     | 16         | 20            | 30         |
   | 4 | Tier 0 Service Account | PSO_ST0_Service User  | PSO_Tier 0 Service Users_APPLY | 10000   | 100        | 20            | 10         |
   | 5 | Tier 1 Service Account | PSO_ST1_Service User  | PSO_Tier 1 Service Users_APPLY | 10000   | 100        | 20            | 20         |
+  
   ```Note: for all PSO's complexity is turned on requiring complex passwords```
-- Validate the settings with your password policy in place, if you don't have any the default settings are a good starting point.
+- Validate the settings with your organizations security policies, if you don't have any the default settings are a good starting point.
 
 ## Run Script
-When all settings are correct you can run the script. This will create the Password Settings Objects and link them to the correct groups. 
+When all settings are correct you can run the script. This will create the Password Settings Objects and link them to the correct groups. This will enforce the password policies to the right accounts when all scripts are deployed.
 
+```
+**Note:**This script has no output, so if the script finished without any output it has run successful.
+To verify if objects are created you can run the script again, and it should tell you the objects already exist.
+```
+# 4 Creating Group Policy Objects (Create-GPOs.ps1)
+Next step is to deloy GPO objects. 
