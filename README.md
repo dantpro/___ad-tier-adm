@@ -104,15 +104,15 @@ PSO's are objects that enforce password requirements. Using PSO's gives the abil
 
 ## Prerequisites
 - Check the script file to validate the password settings are according to your organizations need. There are 5 objects defined in the script.
-  | # | Scope                  | Object                | Applies to                     |
-  |---|------------------------|-----------------------|--------------------------------|
-  | 1 | Tier 0 Admin           | PSO_AT0_Administrator | PSO_Tier 0 ADM Users_APPLY     |
-  | 2 | Tier 1 Admin           | PSO_AT1_Administrator | PSO_Tier 1 ADM Users_APPLY     |
-  | 3 | Tier 2 Admin           | PSO_AT2_Administrator | PSO_Tier 2 ADM Users_APPLY     |
-  | 4 | Tier 0 Service Account | PSO_ST0_Service User  | PSO_Tier 0 Service Users_APPLY |
-  | 5 | Tier 1 Service Account | PSO_ST1_Service User  | PSO_Tier 1 Service Users_APPLY |
-  
- - PSO_AT0_Administrator
-  2. Tier 1 Admin - PSO_AT1_Administrator
-  3. Tier 2 Admin - PSO_AT2_Administrator
-  4. Tier 0 Service Account - 
+  | # | Scope                  | Object                | Applies to                     | Max Age | Min Lenght | History Count | Precedence |
+  |---|------------------------|-----------------------|--------------------------------|---------|------------|---------------|------------|
+  | 1 | Tier 0 Admin           | PSO_AT0_Administrator | PSO_Tier 0 ADM Users_APPLY     | 120     | 20         | 20            | 10         |
+  | 2 | Tier 1 Admin           | PSO_AT1_Administrator | PSO_Tier 1 ADM Users_APPLY     | 120     | 20         | 20            | 20         |
+  | 3 | Tier 2 Admin           | PSO_AT2_Administrator | PSO_Tier 2 ADM Users_APPLY     | 120     | 16         | 20            | 30         |
+  | 4 | Tier 0 Service Account | PSO_ST0_Service User  | PSO_Tier 0 Service Users_APPLY | 10000   | 100        | 20            | 10         |
+  | 5 | Tier 1 Service Account | PSO_ST1_Service User  | PSO_Tier 1 Service Users_APPLY | 10000   | 100        | 20            | 20         |
+- Validate the settings with your password policy in place, if you don't have any the default settings are a good starting point.
+
+## Run Script
+When all settings are correct you can run the script. This will create the Password Settings Objects and link them to the correct groups. 
+
