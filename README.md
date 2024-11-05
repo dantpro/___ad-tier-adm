@@ -111,6 +111,7 @@ PSO's are objects that enforce password requirements. Using PSO's gives the abil
   | 3 | Tier 2 Admin           | PSO_AT2_Administrator | PSO_Tier 2 ADM Users_APPLY     | 120     | 16         | 20            | 30         |
   | 4 | Tier 0 Service Account | PSO_ST0_Service User  | PSO_Tier 0 Service Users_APPLY | 10000   | 100        | 20            | 10         |
   | 5 | Tier 1 Service Account | PSO_ST1_Service User  | PSO_Tier 1 Service Users_APPLY | 10000   | 100        | 20            | 20         |
+  ```Note: for all PSO's complexity is turned on requiring complex passwords```
 - Validate the settings with your password policy in place, if you don't have any the default settings are a good starting point.
 
 ## Run Script
