@@ -70,23 +70,23 @@ $OUs = @(
         path="OU=Tier 1,OU=Computers,OU=Corp,DC=contoso,DC=com"
     },
     @{
-        name="Adelaide";
+        name="Location1";
         path="OU=Users,OU=Corp,DC=contoso,DC=com"
     },
     @{
-        name="Melbourne";
+        name="Location2";
         path="OU=Users,OU=Corp,DC=contoso,DC=com"
     },
     @{
-        name="Sydney";
+        name="Location3";
         path="OU=Users,OU=Corp,DC=contoso,DC=com"
     },
     @{
-        name="Perth";
+        name="Location4";
         path="OU=Users,OU=Corp,DC=contoso,DC=com"
     },
     @{
-        name="Brisbane";
+        name="Location5";
         path="OU=Users,OU=Corp,DC=contoso,DC=com"
     },
     @{
