@@ -10,7 +10,7 @@ Its reconmended to first deploy inside a test environment to get a full understa
 - Text editor to edit the input files (csv / json / log)
 - Powershell client, can be visual studio code or Powershell ISE or other preference
 
-# Deploy OU / Container Structure (Create-Structure.ps1)
+# 1 Deploy OU / Container Structure (Create-Structure.ps1)
 First step is to create a new OU structure. This script will deploy a new Top Level OU called **corp** and deploys a new OU structure in the corp OU. This will contain OU's for all tiers and assets and this forms the basis of the tiering model. This script also deploys a set of containers for the following assets:
 - Roles Tier 0, 1, 2
 - Access Control Tier 0, 1, 2
@@ -79,9 +79,11 @@ PS C:\Users\Administrator>
 
 Fix any error you come accross. And the Structure deployment is done.
 
-# Creating groups (Create-Groups.ps1)
+# 2 Creating groups (Create-Groups.ps1)
 Next step is to create groups that will be used for different purposes. The "**group-creation.csv**" file contains all default groups needed for a basic tiering model. You can add extra groups as you desire in the same format.
 
+## Prerequisites 
+Again you will have to correct the domain name, but this time in the CSV file. Open the CSV file in a text editor and replace the same values as in step 1.
 Example:
 ```
 Name,Path,GroupScope,GroupCategory
