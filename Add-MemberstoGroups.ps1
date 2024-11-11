@@ -1,4 +1,4 @@
-# from a CSV file, this will add members to specific groups, one member at a time
+# From a CSV input file, this will add members to specific groups, one member at a time
 $CSVPath = ".\group-membership.csv"
 $GroupNameHeader = "group"
 $AddtoGroupHeader = "addto"
