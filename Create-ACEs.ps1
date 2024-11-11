@@ -1,3 +1,5 @@
+# This script deploys all permissions for AD management tasks. Two input files are used.
+
 Import-Module ActiveDirectory
 
 $ENV = $args[0]
@@ -12,7 +14,8 @@ $ADDrive = "AD:"
 $GUIDMap = @{ } # hashtable that will contain the LDAP name and related GUID for each schema class attribute
 $ExtendedRightsMap = @{ } # hashtable that will contain name and GUID for extended permissions
 
-$RootDSE = Get-ADRootDSE # representation of the root of the directory tree providing configuration infos and capabilities
+#  Representation of the root of the directory tree providing configuration infos and capabilities
+$RootDSE = Get-ADRootDSE
 
 $ActiveDirectoryRightsList = @(
     "AccessSystemSecurity",
