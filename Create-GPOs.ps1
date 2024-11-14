@@ -17,6 +17,7 @@ $GPOAdminLevelGroups = @{
 
 $CSVNameHeader = "GPOName"
 $CSVAdminLevelHeader = "AdminLevel"
+$CSVOUHeader = "OU"
 
 function Check-Argument ($arg) {
 
@@ -107,6 +108,8 @@ elseif ($Mode -eq "file") {
             New-GPO -Name $_.$CSVNameHeader
             Write-Host "`nSetting permission to GPO $($_.$CSVNameHeader)"
             Change-GPOPermission $_.$CSVNameHeader $_.$CSVAdminLevelHeader
+            Write-Host "`nLinking GPO $($_.$CSVNameHeader) to OU $($_.$CSVOUHeader)"
+            New-GPLink -Name $_.$CSVNameHeader -Target $_.$CSVOUHeader
         }
         else {
             Write-Host "The entry for GPO $($_.$CSVNameHeader) is invalid (either the naming convention is not respected, or the admin level is not in the list), skipping...`n"
