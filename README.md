@@ -124,4 +124,4 @@ When all settings are correct you can run the script. This will create the Passw
 To verify if objects are created you can run the script again, and it should tell you the objects already exist.
 ```
 # 4 Creating Group Policy Objects (Create-GPOs.ps1)
-Next step is to deloy GPO objects. 
+Next step is to deloy GPO objects. The objects created with this script will be empty and will have to be filled with settings, but thats not in scope of this guide. This will be covered in a separete guide. 
