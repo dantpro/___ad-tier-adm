@@ -1,6 +1,6 @@
 [
     {
-        "DistinguishedName": "OU=Users,OU=Tier 1,OU=Administration,OU=Corp,DC=contoso,DC=com",
+        "DistinguishedName": "OU=Users,OU=Tier 1,OU=Administration,OU=Corp,DC=test,DC=local",
         "ACEs": [
             {
                 "Group": "USR_Tier 1 ADM Users PW_RST",
@@ -41,7 +41,7 @@
         ]
     },
     {
-        "DistinguishedName": "CN=Access Control,OU=Tier 1,OU=Administration,OU=Corp,DC=contoso,DC=com",
+        "DistinguishedName": "CN=Access Control,OU=Tier 1,OU=Administration,OU=Corp,DC=test,DC=local",
         "ACEs": [
             {
                 "Group": "GRP_Tier 1 ADM Access Control_MANAGE",
@@ -58,7 +58,7 @@
         ]
     },
     {
-        "DistinguishedName": "CN=Roles,OU=Tier 1,OU=Administration,OU=Corp,DC=contoso,DC=com",
+        "DistinguishedName": "CN=Roles,OU=Tier 1,OU=Administration,OU=Corp,DC=test,DC=local",
         "ACEs": [
             {
                 "Group": "GRP_Tier 1 ADM Roles_MANAGE",
@@ -75,7 +75,7 @@
         ]
     },
     {
-        "DistinguishedName": "OU=Users,OU=Tier 1,OU=Service,OU=Corp,DC=contoso,DC=com",
+        "DistinguishedName": "OU=Users,OU=Tier 1,OU=Service,OU=Corp,DC=test,DC=local",
         "ACEs": [
             {
                 "Group": "USR_Tier 1 Service PW_RST",
@@ -134,7 +134,7 @@
         ]
     },
     {
-        "DistinguishedName": "CN=Access Control,OU=Tier 1,OU=Service,OU=Corp,DC=contoso,DC=com",
+        "DistinguishedName": "CN=Access Control,OU=Tier 1,OU=Service,OU=Corp,DC=test,DC=local",
         "ACEs": [
             {
                 "Group": "GRP_Tier 1 Service Access Control_MANAGE",
@@ -151,7 +151,7 @@
         ]
     },
     {
-        "DistinguishedName": "OU=Tier 1,OU=Computers,OU=Corp,DC=contoso,DC=com",
+        "DistinguishedName": "OU=Tier 1,OU=Computers,OU=Corp,DC=test,DC=local",
         "ACEs": [
             {
                 "Group": "OU_Tier 1 All SRV_LINK GPO",
@@ -162,7 +162,7 @@
         ]
     },
     {
-        "DistinguishedName": "OU=Tier 0,OU=Computers,OU=Corp,DC=contoso,DC=com",
+        "DistinguishedName": "OU=Tier 0,OU=Computers,OU=Corp,DC=test,DC=local",
         "ACEs": [
             {
                 "Group": "OU_Tier 0 All SRV_LINK GPO",
@@ -173,7 +173,7 @@
         ]
     },
     {
-        "DistinguishedName": "OU=PKI,OU=Tier 0,OU=Computers,OU=Corp,DC=contoso,DC=com",
+        "DistinguishedName": "OU=PKI,OU=Tier 0,OU=Computers,OU=Corp,DC=test,DC=local",
         "ACEs": [
             {
                 "Group": "SRV_Tier 0 PKI SRV_MOD",
@@ -208,7 +208,7 @@
         ]
     },
     {
-        "DistinguishedName": "OU=Privileged Access Workstations,OU=Tier 0,OU=Computers,OU=Corp,DC=contoso,DC=com",
+        "DistinguishedName": "OU=Privileged Access Workstations,OU=Tier 0,OU=Computers,OU=Corp,DC=test,DC=local",
         "ACEs": [
             {
                 "Group": "COMPTR_Tier 0 Privileged Access Workstations_MOD",
@@ -243,7 +243,7 @@
         ]
     },
     {
-        "DistinguishedName": "OU=Network,OU=Tier 1,OU=Computers,OU=Corp,DC=contoso,DC=com",
+        "DistinguishedName": "OU=Network,OU=Tier 1,OU=Computers,OU=Corp,DC=test,DC=local",
         "ACEs": [
             {
                 "Group": "SRV_Tier 1 Network SRV_MOD",
@@ -278,7 +278,7 @@
         ]
     },
     {
-        "DistinguishedName": "OU=Application,OU=Tier 1,OU=Computers,OU=Corp,DC=contoso,DC=com",
+        "DistinguishedName": "OU=Application,OU=Tier 1,OU=Computers,OU=Corp,DC=test,DC=local",
         "ACEs": [
             {
                 "Group": "SRV_Tier 1 Application SRV_MOD",
@@ -313,7 +313,7 @@
         ]
     },
     {
-        "DistinguishedName": "OU=File,OU=Tier 1,OU=Computers,OU=Corp,DC=contoso,DC=com",
+        "DistinguishedName": "OU=File,OU=Tier 1,OU=Computers,OU=Corp,DC=test,DC=local",
         "ACEs": [
             {
                 "Group": "SRV_Tier 1 File SRV_MOD",
@@ -348,7 +348,7 @@
         ]
     },
     {
-        "DistinguishedName": "OU=Update,OU=Tier 1,OU=Computers,OU=Corp,DC=contoso,DC=com",
+        "DistinguishedName": "OU=Update,OU=Tier 1,OU=Computers,OU=Corp,DC=test,DC=local",
         "ACEs": [
             {
                 "Group": "SRV_Tier 1 Update SRV_MOD",
@@ -383,7 +383,7 @@
         ]
     },
     {
-        "DistinguishedName": "OU=Privileged Access Workstations,OU=Tier 1,OU=Computers,OU=Corp,DC=contoso,DC=com",
+        "DistinguishedName": "OU=Privileged Access Workstations,OU=Tier 1,OU=Computers,OU=Corp,DC=test,DC=local",
         "ACEs": [
             {
                 "Group": "COMPTR_Tier 1 Privileged Access Workstations_MOD",
@@ -418,7 +418,7 @@
         ]
     },
     {
-        "DistinguishedName": "OU=Terminal servers,OU=Computers,OU=Corp,DC=contoso,DC=com",
+        "DistinguishedName": "OU=Terminal servers,OU=Computers,OU=Corp,DC=test,DC=local",
         "ACEs": [
             {
                 "Group": "SRV_Tier 1 Terminal SRV_MOD",
@@ -453,7 +453,7 @@
         ]
     },
     {
-        "DistinguishedName": "OU=Users,OU=Tier 2,OU=Administration,OU=Corp,DC=contoso,DC=com",
+        "DistinguishedName": "OU=Users,OU=Tier 2,OU=Administration,OU=Corp,DC=test,DC=local",
         "ACEs": [
             {
                 "Group": "USR_Tier 2 ADM Users PW_RST",
@@ -494,7 +494,7 @@
         ]
     },
     {
-        "DistinguishedName": "CN=Access Control,OU=Tier 2,OU=Administration,OU=Corp,DC=contoso,DC=com",
+        "DistinguishedName": "CN=Access Control,OU=Tier 2,OU=Administration,OU=Corp,DC=test,DC=local",
         "ACEs": [
             {
                 "Group": "GRP_Tier 2 ADM Access Control_MANAGE",
@@ -511,7 +511,7 @@
         ]
     },
     {
-        "DistinguishedName": "CN=Roles,OU=Tier 2,OU=Administration,OU=Corp,DC=contoso,DC=com",
+        "DistinguishedName": "CN=Roles,OU=Tier 2,OU=Administration,OU=Corp,DC=test,DC=local",
         "ACEs": [
             {
                 "Group": "GRP_Tier 2 ADM Roles_MANAGE",
@@ -528,7 +528,7 @@
         ]
     },
     {
-        "DistinguishedName": "OU=Tier 2,OU=Computers,OU=Corp,DC=contoso,DC=com",
+        "DistinguishedName": "OU=Tier 2,OU=Computers,OU=Corp,DC=test,DC=local",
         "ACEs": [
             {
                 "Group": "COMPTR_Tier 2 Workstations_MOD",
@@ -563,7 +563,7 @@
         ]
     },
     {
-        "DistinguishedName": "OU=Users,OU=Corp,DC=contoso,DC=com",
+        "DistinguishedName": "OU=Users,OU=Corp,DC=test,DC=local",
         "ACEs": [
             {
                 "Group": "USR_Corporate Users PW_RST",
@@ -616,7 +616,7 @@
         ]
     },
     {
-        "DistinguishedName": "CN=Roles,CN=Security groups,OU=Corp,DC=contoso,DC=com",
+        "DistinguishedName": "CN=Roles,CN=Security groups,OU=Corp,DC=test,DC=local",
         "ACEs": [
             {
                 "Group": "GRP_Roles_MANAGE",
@@ -633,7 +633,7 @@
         ]
     },
     {
-        "DistinguishedName": "CN=Access Control,CN=Security groups,OU=Corp,DC=contoso,DC=com",
+        "DistinguishedName": "CN=Access Control,CN=Security groups,OU=Corp,DC=test,DC=local",
         "ACEs": [
             {
                 "Group": "GRP_Access Control_MANAGE",
@@ -650,7 +650,7 @@
         ]
     },
     {
-        "DistinguishedName": "CN=Computers,DC=contoso,DC=com",
+        "DistinguishedName": "CN=Computers,DC=test,DC=local",
         "ACEs": [
             {
                 "Group": "COMPTR_Default Container_CREATE",
@@ -667,7 +667,7 @@
         ]
     },
     {
-        "DistinguishedName": "OU=Disabled Users,DC=contoso,DC=com",
+        "DistinguishedName": "OU=Disabled Users,DC=test,DC=local",
         "ACEs": [
             {
                 "Group": "USR_Disabled users OU_ADD",
@@ -678,7 +678,7 @@
         ]
     },
     {
-        "DistinguishedName": "DC=contoso,DC=com",
+        "DistinguishedName": "DC=test,DC=local",
         "ACEs": [
             {
                 "Group": "REPLICATION_All changes_ALLOW",
