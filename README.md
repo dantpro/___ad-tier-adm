@@ -4,4 +4,4 @@ This collection of scripts allows for quick deployment of a tiering model for Ac
 
 Its reconmended to first deploy inside a test environment to get a full understanding of the scripts and files used.
 
-[Full Documentation](https://freelance.fhs7](https://freelance.fhs7.nl/blog/active-directory-tiering-model-deployment-with-powershell)
+[Full Documentation](https://freelance.fhs7.nl/blog/active-directory-tiering-model-deployment-with-powershell)
