@@ -196,14 +196,6 @@
                 "ObjectName": "computer"
             }
         },
-        {
-            "Type": "CreateDeletePermission",
-            "ACE": {
-                "ActiveDirectoryRights": "DeleteChild",
-                "AccessControlType": "Allow",
-                "ObjectName": "computer"
-            }
-        }
     ],
     "ModifyComputer": [
         {
