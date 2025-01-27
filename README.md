@@ -6,4 +6,4 @@ Its reconmended to first deploy inside a test environment to get a full understa
 
 [Full Documentation](https://github.com/dantpro/___ad-tier-adm/blob/master/doc/_active-directory-tiering-model-deployment-with-powershell.md)  
 
-(https://landing.fhs7.nl/blog/active-directory-tiering-deployment-with-powershell)
+https://landing.fhs7.nl/blog/active-directory-tiering-deployment-with-powershell
